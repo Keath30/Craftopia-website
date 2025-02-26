@@ -1,0 +1,190 @@
+/*External Stylesheet for craftopia*/
+
+/*Importing Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body,html 
+{
+	padding-top:65px;
+	background: url("../assets/images/bgimg.jpg") no-repeat center center fixed;
+	background-position: top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;	
+	/*background-position:50% 50%;*/
+}
+
+p{
+	margin: 0;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 100%; 
+	font-family: 'Raleway', sans-serif;
+	border-style: None;
+    border-color: #fbfbfb;	
+} 
+
+#navbar{
+	
+	top:0;
+	left:0;
+	width:100%;
+	position:fixed;
+	z-index: 100;
+}
+
+#header
+{
+	background: #F8F8F8;
+	padding: 10px 20px;
+}	
+
+#header h1
+{
+	margin: 0;
+	background:#9837ac;
+	color:	#ffffff;
+	font-family: Fjalla One;
+	font-size: 50;
+	text-align: left;
+	width: 170;
+	height:50;
+	padding: 10px;
+	margin-left:130px;
+}
+
+#header h2
+{
+	margin: 0;
+	color: #770577;
+	font-size: 15;
+	text-align: left;
+	padding-left:130px;
+}
+
+#header h3
+{
+	clear:both;
+	margin: 0;
+	color:#300221;
+	font-size: 14;
+	text-align: right;
+}
+
+#navigation 
+{
+	float: left;
+	width: 100%;
+	background-color: #300221;
+}
+
+#navigation ul
+{
+	
+	display:flex;
+	justify-content:space-between; 
+	flex-direction:row;
+	margin: 10px;
+	padding-left: 130px; padding-right:130px;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	/*display: block;*/
+	/*float: left;*/
+	padding: 10px 25px;
+	color: #FFF;
+	text-decoration: none;
+	border-right: 0px solid#fff;
+}
+
+#navigation li a:hover 
+{ 
+	background: #884d86; 
+	color: #fff
+}
+
+#indextable p{
+	padding-left: 15px;
+	padding-top: 7px;
+}
+
+#indextable{
+	margin-left: 2rem;
+}
+
+.prodDescription{
+	width:35rem;
+}
+
+#indextable img{
+	transition: 0.2s ease-in-out;
+	border-radius: 15px;
+}
+
+#indextable img:hover{
+	transform:scale(1.1);
+}
+
+#indextable h5:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#indextable td{
+	padding-bottom: 3rem;
+}
+
+#content
+{
+	margin:0;
+	width:80%; min-height:100%;
+	clear: left;
+	padding: 20px;
+	padding-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #F8F8F8; 
+}
+
+#content h4
+{
+	color:#000;
+	font-size: 32;
+	margin: 2rem 0 2rem 2rem;
+	font-family: 'Major Mono Display', monospace;
+}
+
+#content h5
+{
+	color:#194a8d;
+	font-size: 20;
+	margin: 0 0 .5em;
+	padding-left: 15px;
+}
+
+#footer
+{
+	z-index:10;
+	width:80%;
+	background:#300221;
+	text-align: center;
+	padding: 5px;
+	padding-left:20px; padding-right:20px;
+	color: #fff;
+	margin-left:auto; margin-right:auto;
+}
+
+
+
+
